@@ -15,8 +15,8 @@ void main(){
 
     test('Deve falhar se o valor da transferencia for menor ou igual a 0',
         (){
-          //Devese lançar o erro no metodo chamado, no caso, em Transaction
+          //Deve-se lançar o erro no metodo chamado, no caso, em Transaction
           expect(() => Transaction(null,0,null),throwsAssertionError);
-        });
+    });
 
 }
