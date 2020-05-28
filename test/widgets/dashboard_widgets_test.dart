@@ -4,8 +4,8 @@ import 'package:bytebank/screens/dashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import '../lib/main.dart';
-import 'martches.dart';
+import '../../lib/main.dart';
+import '../matchers/martches.dart';
 
 
 void main(){

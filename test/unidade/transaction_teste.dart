@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import '../lib/models/transaction.dart';
+import '../../lib/models/transaction.dart';
 
 void main(){
   //teste de unidade

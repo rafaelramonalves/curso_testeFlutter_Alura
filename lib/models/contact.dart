@@ -24,4 +24,16 @@ class Contact {
         'name': name,
         'accountNumber': accountNumber,
       };
+
+  //Usando o alt + insert e gerando a igualdade quando o nome e conta forem iguais
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is Contact &&
+          runtimeType == other.runtimeType &&
+          name == other.name &&
+          accountNumber == other.accountNumber;
+
+  @override
+  int get hashCode => name.hashCode ^ accountNumber.hashCode;
 }
